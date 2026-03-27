@@ -1,0 +1,5 @@
+mountpoints:
+  /:
+  url: https://localhost:8443/bin/franklin.delivery/Ngupta45/eds-forms-test/main
+  type: "markup"
+  suffix: ".html"
