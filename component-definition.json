@@ -8,7 +8,7 @@
           "title": "Text",
           "id": "text",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/franklin/components/text/v1/text",
                 "template": {}
@@ -20,7 +20,7 @@
           "title": "Title",
           "id": "title",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/franklin/components/title/v1/title",
                 "template": {
@@ -34,7 +34,7 @@
           "title": "Image",
           "id": "image",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/franklin/components/image/v1/image",
                 "template": {}
@@ -46,7 +46,7 @@
           "title": "Button",
           "id": "button",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/franklin/components/button/v1/button",
                 "template": {
@@ -66,7 +66,7 @@
           "title": "Section",
           "id": "section",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/franklin/components/section/v1/section",
                 "template": {
@@ -86,7 +86,7 @@
           "title": "Cards",
           "id": "cards",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
@@ -101,7 +101,7 @@
           "title": "Card",
           "id": "card",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
@@ -116,7 +116,7 @@
           "title": "Columns",
           "id": "columns",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/franklin/components/columns/v1/columns",
                 "template": {
@@ -133,7 +133,7 @@
           "title": "Embed Adaptive Form",
           "id": "embed-adaptive-form",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
@@ -148,7 +148,7 @@
           "title": "Adaptive Form",
           "id": "form",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "fd/franklin/components/form/v1/form",
                 "template": {
@@ -163,7 +163,7 @@
           "title": "Button",
           "id": "form-button",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/button/v1/button",
                 "template": {
@@ -178,7 +178,7 @@
           "title": "Checkbox group",
           "id": "checkbox-group",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/checkboxgroup/v1/checkboxgroup",
                 "template": {
@@ -203,7 +203,7 @@
           "title": "Checkbox",
           "id": "checkbox",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/checkbox/v1/checkbox",
                 "template": {
@@ -219,7 +219,7 @@
           "title": "Date Input",
           "id": "date-input",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/datepicker/v1/datepicker",
                 "template": {
@@ -234,7 +234,7 @@
           "title": "Dropdown List",
           "id": "drop-down",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/dropdown/v1/dropdown",
                 "template": {
@@ -258,7 +258,7 @@
           "title": "Email",
           "id": "email",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/emailinput/v1/emailinput",
                 "template": {
@@ -273,7 +273,7 @@
           "title": "File Attachment",
           "id": "file-input",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/fileinput/v2/fileinput",
                 "template": {
@@ -298,7 +298,7 @@
           "title": "Form Fragment",
           "id": "form-fragment",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/fragment/v1/fragment",
                 "template": {
@@ -314,7 +314,7 @@
           "title": "Image",
           "id": "form-image",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/image/v1/image",
                 "template": {
@@ -329,7 +329,7 @@
           "title": "Number Input",
           "id": "number-input",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/numberinput/v1/numberinput",
                 "template": {
@@ -344,7 +344,7 @@
           "title": "Panel",
           "id": "panel",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/panelcontainer/v1/panelcontainer",
                 "template": {
@@ -360,7 +360,7 @@
           "title": "Radio Group",
           "id": "radio-group",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/radiobutton/v1/radiobutton",
                 "template": {
@@ -384,7 +384,7 @@
           "title": "Captcha (Invisible)",
           "id": "captcha",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/recaptcha/v1/recaptcha",
                 "template": {
@@ -399,7 +399,7 @@
           "title": "Reset",
           "id": "form-reset-button",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/actions/reset/v1/reset",
                 "template": {
@@ -415,7 +415,7 @@
           "title": "Submit",
           "id": "form-submit-button",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/actions/submit/v1/submit",
                 "template": {
@@ -431,7 +431,7 @@
           "title": "Telephone input",
           "id": "telephone-input",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/telephoneinput/v1/telephoneinput",
                 "template": {
@@ -446,7 +446,7 @@
           "title": "Text Input",
           "id": "text-input",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/textinput/v1/textinput",
                 "template": {
@@ -461,7 +461,7 @@
           "title": "Text",
           "id": "plain-text",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/text/v1/text",
                 "template": {
@@ -478,7 +478,7 @@
           "title": "Accordion",
           "id": "form-accordion",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/panelcontainer/v1/panelcontainer",
                 "template": {
@@ -505,7 +505,7 @@
           "title": "Modal",
           "id": "form-modal",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/panelcontainer/v1/panelcontainer",
                 "template": {
@@ -522,7 +522,7 @@
           "title": "Password",
           "id": "password",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/textinput/v1/textinput",
                 "template": {
@@ -538,7 +538,7 @@
           "title": "Rating",
           "id": "rating",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/numberinput/v1/numberinput",
                 "template": {
@@ -554,7 +554,7 @@
           "title": "Terms and conditions",
           "id": "tnc",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/termsandconditions/v1/termsandconditions",
                 "template": {
@@ -610,7 +610,7 @@
           "title": "Wizard",
           "id": "wizard",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/panelcontainer/v1/panelcontainer",
                 "template": {
@@ -638,7 +638,7 @@
           "title": "Fragment",
           "id": "fragment",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
@@ -653,7 +653,7 @@
           "title": "Hero",
           "id": "hero",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
@@ -676,7 +676,7 @@
           "title": "Range",
           "id": "range",
           "plugins": {
-            "xwalk": {
+            "aem": {
               "page": {
                 "resourceType": "core/fd/components/form/numberinput/v1/numberinput",
                 "template": {
