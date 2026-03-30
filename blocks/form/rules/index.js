@@ -598,3 +598,13 @@ export function subscribe(fieldDiv, formId, callback, options) {
     subscriptions.set(fieldDiv?.dataset?.id, { callback, fieldDiv, listenChanges });
   }
 }
+
+/**
+ * Gets the form model instance for a given form ID.
+ *
+ * @param {string} formId - The form's identifier (htmlForm.dataset.id)
+ * @returns {Object|null} The form model instance or null if not found
+ */
+export function getFormModel(formId) {
+  return formModels[formId] || null;
+}

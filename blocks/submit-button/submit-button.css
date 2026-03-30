@@ -1,0 +1,14 @@
+.submit-button-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 16px;
+}
+
+.submit-button-wrapper .button {
+    cursor: pointer;
+}
+
+.submit-button-wrapper .button:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
