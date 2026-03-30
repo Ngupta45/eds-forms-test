@@ -69,7 +69,8 @@
       "text-input",
       "tnc",
       "wizard",
-      "range"
+      "range",
+      "submit-button"
     ]
   }
 ]
