@@ -4934,5 +4934,24 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "submit-button",
+    "fields": [
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "label",
+        "value": "Send",
+        "label": "Button Label"
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "endpoint",
+        "value": "http://localhost:4502/nishant-end-point",
+        "label": "API Endpoint"
+      }
+    ]
   }
 ]
