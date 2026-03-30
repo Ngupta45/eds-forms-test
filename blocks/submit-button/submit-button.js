@@ -1,15 +1,7 @@
 // blocks/submit-button/submit-button.js
 export default function decorate(block) {
-  // Authors provide two lines in UE:
-  // Line 1: button label
-  // Line 2: endpoint URL
-  const lines = block.textContent
-    .split('\n')
-    .map((l) => l.trim())
-    .filter(Boolean);
-
-  const label = lines[0] || 'Send';
-  const endpoint = lines[1] || 'http://localhost:3000/contact';
+  const label = block.dataset.label || 'Send';
+  const endpoint = block.dataset.endpoint || 'http://localhost:4502/nishant-end-point';
 
   // Build markup for the block
   block.innerHTML = `
