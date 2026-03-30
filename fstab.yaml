@@ -1,5 +1,5 @@
 mountpoints:
   /:
-  url: https://localhost:8443/bin/franklin.delivery/Ngupta45/eds-forms-test/main
+  url: https://author-p189356-e1976989.adobeaemcloud.com/bin/franklin.delivery/Ngupta45/eds-forms-test/main
   type: "markup"
   suffix: ".html"
