@@ -117,6 +117,40 @@ async function submitDocBasedForm(form, captcha) {
   }
 }
 
+async function submitAEMForm(form, captcha) {
+  try {
+    // Dynamically import getFormModel to access the form model
+    const { getFormModel } = await import('./rules/index.js');
+    const formModel = getFormModel(form.dataset?.id);
+    
+    if (formModel && typeof formModel.submit === 'function') {
+      // Get captcha token if captcha is present
+      if (captcha) {
+        const token = await captcha.getToken();
+        const captchaElement = formModel.getElement(captcha.id);
+        if (captchaElement) {
+          captchaElement.value = token;
+        }
+      }
+      
+      const result = await formModel.submit();
+      form.dispatchEvent(new CustomEvent('submit-success', { 
+        bubbles: true, 
+        detail: { payload: result } 
+      }));
+      submitSuccess({ payload: result }, form);
+    } else {
+      throw new Error('AEM form model not available or not initialized yet');
+    }
+  } catch (error) {
+    form.dispatchEvent(new CustomEvent('submit-failure', { 
+      bubbles: true, 
+      detail: { error } 
+    }));
+    submitFailure(error, form);
+  }
+}
+
 export async function handleSubmit(e, form, captcha) {
   e.preventDefault();
 
@@ -131,6 +165,8 @@ export async function handleSubmit(e, form, captcha) {
 
       if (form.dataset.source === 'sheet') {
         await submitDocBasedForm(form, captcha);
+      } else if (form.dataset.source === 'aem') {
+        await submitAEMForm(form, captcha);
       }
     }
   } else {
