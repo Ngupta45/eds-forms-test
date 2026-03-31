@@ -1,6 +1,6 @@
 {
   "mappings": [
-    "/content/eds-forms-ue/:/"
+    "/content/eds-forms-ue/index:/"
   ],
   "includes": [
     "/content/eds-forms-ue/"
