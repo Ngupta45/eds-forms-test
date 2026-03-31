@@ -1,5 +1,4 @@
 mountpoints:
   /:
-  url: https://pseudoprofessional-cellulolytic-tonja.ngrok-free.dev
-  type: "markup"
-  suffix: ".html"
+    url: https://pseudoprofessional-cellulolytic-tonja.ngrok-free.dev/
+    type: "aem"
