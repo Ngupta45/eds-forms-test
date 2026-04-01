@@ -2,6 +2,7 @@
   "mappings": [
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "/content/aem-boilerplate/:/"
   ],
   "includes": [
@@ -15,6 +16,9 @@
 >>>>>>> f033a7b (Initial commit)
 =======
     "/content/eds-forms-ue/:/"
+=======
+    "/content/eds-forms-ue/index:/"
+>>>>>>> e02d6e6 (Update paths.json)
   ],
   "includes": [
     "/content/eds-forms-ue/"
