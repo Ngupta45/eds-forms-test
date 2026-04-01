@@ -3,6 +3,7 @@ mountpoints:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     url: "https://author-p130360-e1272151.adobeaemcloud.com/bin/franklin.delivery/adobe-rnd/aem-boilerplate-xwalk/main"
     type: "markup"
     suffix: ".html"
@@ -14,6 +15,9 @@ mountpoints:
 =======
   url: https://pseudoprofessional-cellulolytic-tonja.ngrok-free.dev/bin/franklin.delivery/Ngupta45/eds-forms-test/main
 >>>>>>> 331d7eb (Update fstab.yaml)
+=======
+  url: https://pseudoprofessional-cellulolytic-tonja.ngrok-free.dev
+>>>>>>> 5f77473 (Update fstab.yaml)
   type: "markup"
   suffix: ".html"
 >>>>>>> 87e277d (Create fstab.yaml)
