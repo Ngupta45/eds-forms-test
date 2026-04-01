@@ -1,0 +1,18 @@
+/* Hide Adaptive Form's default submit button */
+.cmp-adaptiveform__actions .cmp-adaptiveform__submit {
+  display: none !important;
+}
+
+/* Hide endpoint text, keep it for JS/UE */
+.af-custom-submit__endpoint {
+  display: none;
+}
+
+.af-custom-submit__button {
+  /* style as you like */
+}
+
+.af-custom-submit__status {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
